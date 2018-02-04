@@ -1,0 +1,38 @@
+{
+  "root": {
+    "children": [
+      {
+        "content": {
+          "url": "http://google.com"
+        },
+        "id": 2,
+        "type": "WEB"
+      },
+      {
+        "children": [
+          {
+            "content": {
+              "value": "My text content"
+            },
+            "id": 4,
+            "type": "TEXT"
+          },
+          {
+            "content": {
+              "url": "http://facebook.com"
+            },
+            "id": 5,
+            "type": "WEB"
+          }
+        ],
+        "id": 3,
+        "type": "CONTAINER",
+        "vertical": false
+      }
+    ],
+    "id": 1,
+    "type": "CONTAINER",
+    "vertical": true
+  },
+  "nextId": 6
+}
